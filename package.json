@@ -1,0 +1,26 @@
+{
+  "name": "mongoose_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardo-project/mongoose_api.git"
+  },
+  "author": "Ricardo Augusto Müller Germani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardo-project/mongoose_api/issues"
+  },
+  "homepage": "https://github.com/ricardo-project/mongoose_api#readme",
+  "devDependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "nodemon": "^2.0.15"
+  }
+}

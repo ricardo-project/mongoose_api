@@ -1,0 +1,566 @@
+{
+	"log": {
+		"version": "1.2",
+		"creator": {
+			"name": "Insomnia REST Client",
+			"version": "insomnia.desktop.app:v2021.7.2"
+		},
+		"entries": [
+			{
+				"startedDateTime": "2022-02-22T12:45:17.457Z",
+				"time": 3.2070000000000003,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3001/lista",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "8211"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"2013-wSNcAgwEgDB5+x720sa+lNrNkg0\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 22 Feb 2022 12:39:18 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 8211,
+						"mimeType": "text/html; charset=utf-8",
+						"text": "\n    <link rel=stylesheet href=\"https://fonts.googleapis.com/css?family=Raleway|Merriweather\">\n    <style>\n        body {\n            background: #2f2b2a;\n            margin: 10px;\n            font-size: 18px;\n            font-family: Raleway;\n            filter: drop-shadow(rgb(0,0,0,.4) 4px 4px 0px);\n            color: #bacca4;\n        } .title {\n            text-align: center;\n            color: #7dad93;\n            font-size: 50px;\n            font-weight: bold;\n            margin-bottom: 10px;\n            font-family: Merriweather;\n        } .item {\n            position: relative;\n            padding: 3px 6px;\n        } .item1 {\n            background: #0a516d\n        } .item2 {\n            background: #034055\n        } .item3 {\n            background: #094242\n        } .item4 {\n            background: #043535\n        } .item5 {\n            background: #334033\n        } .item6 {\n            background: #27352b\n        } .item7 {\n            background: #503f3b\n        } .item8 {\n            background: #453533\n        } .seta {\n            height: 25px;\n            transform: rotate(90deg);\n            filter: invert(1)\n        } .show {\n            height: 20px;\n            overflow: hidden;\n            cursor: pointer;\n            padding: 2px;\n            display: flex;\n            align-items: center;\n            font-size: 12px;\n            position: relative;\n            justify-content: space-between\n        } .sub {\n            height: 24px;\n            overflow: hidden;\n        } .sub .seta {\n            transition: all 0.2s ease\n        } .J {\n            font-size: 16px;\n            background: #04283d;\n        } .P {\n            background: #092626\n        } .R {\n            background: #182414\n        } p {\n            margin: 3px 0px;\n        }\n    </style>\n    <p class=title>Endereços</p><div class='item item1'>\n            <p><b>ID</b>: 6214d5932215cf9320896d79</p>\n            <p><b>Complemento</b>:  <i>Nenhum inserido</i> <p><b>Número</b>: 2</p></div><div class='sub J'>\n        <div class='showJ show' onclick=\"\n            let allJ = this.parentElement\n            let seta = allJ.querySelector('.seta')\n            if(allJ.style.height !== '') {\n                allJ.style.cssText = ''\n                seta.style.cssText = ''\n            } else {\n                allJ.style.height = 'max-content'\n                seta.style.transform = 'rotate(270deg)'\n            }\n        \"><img draggable=false class=seta src='https://images.vexels.com/media/users/3/136479/isolated/preview/72ca95e059828aea4edc31c04b0556ce-proxima-seta-1.png'><p>Mostrar jogadores</p></div><div class='item item3'>\n                    <p><b>Nickname</b>: rixarlisson</p>\n                    <p><b>Senha</b>: rick</p>\n                    <p><b>Pontos</b>: 200<p>\n                    <p><b>Data do último login</b>: Fri Dec 31 2021 21:00:00 GMT-0300 (Horário Padrão de Brasília)</p>\n                </div><div class='item item4'>\n                    <p><b>Nickname</b>: foxylady</p>\n                    <p><b>Senha</b>: foxy</p>\n                    <p><b>Pontos</b>: 300<p>\n                    <p><b>Data do último login</b>: Fri Dec 31 2021 21:00:00 GMT-0300 (Horário Padrão de Brasília)</p>\n                </div><div class='sub P'>\n        <div class='showP show' onclick=\"\n            let allP = this.parentElement\n            let seta = allP.querySelector('.seta')\n            if(allP.style.height !== '') {\n                allP.style.cssText = ''\n                seta.style.cssText = ''\n            } else {\n                allP.style.height = 'max-content'\n                seta.style.transform = 'rotate(270deg)'\n            }\n        \"><img draggable=false class=seta src='https://images.vexels.com/media/users/3/136479/isolated/preview/72ca95e059828aea4edc31c04b0556ce-proxima-seta-1.png'><p>Mostrar partidas</p></div><div class='item item5'>\n                            <p><b>ID</b>: 6214d5a02215cf9320896d7f</p>\n                            <p><b>Início</b>: Fri Jan 02 2009 22:00:00 GMT-0200 (Horário de Verão de Brasília)</p>\n                            <p><b>Fim</b>: Sun Jan 09 2022 00:00:00 GMT-0300 (Horário Padrão de Brasília)</p>\n                        </div><div class='item item6'>\n                            <p><b>ID</b>: 6214d5a22215cf9320896d83</p>\n                            <p><b>Início</b>: Thu Jan 06 2022 00:00:00 GMT-0300 (Horário Padrão de Brasília)</p>\n                            <p><b>Fim</b>: Sun Jan 09 2022 00:00:00 GMT-0300 (Horário Padrão de Brasília)</p>\n                        </div><div class='sub R'>\n        <div class='showR show' onclick=\"\n            let allR = this.parentElement\n            let seta = allR.querySelector('.seta')\n            if(allR.style.height !== '') {\n                allR.style.cssText = ''\n                seta.style.cssText = ''\n            } else {\n                allR.style.height = 'max-content'\n                seta.style.transform = 'rotate(270deg)'\n            }\n        \"><img draggable=false class=seta src='https://images.vexels.com/media/users/3/136479/isolated/preview/72ca95e059828aea4edc31c04b0556ce-proxima-seta-1.png'><p>Mostrar rounds</p></div><div class='item item7'>\n                                    <p><b>ID</b>: 6214d5a82215cf9320896d8b</p>\n                                    <p><b>Número</b>: 20</p>\n                                    <p><b>Início</b>: Sat Jan 01 2022 00:00:00 GMT-0300 (Horário Padrão de Brasília)</p>\n                                    <p><b>Fim</b>: Sat Jan 01 2022 00:00:00 GMT-0300 (Horário Padrão de Brasília)</p>\n                                    <p><b>Modo</b>: CONTRATERRORISTA</p>\n                                </div><div class='item item8'>\n                                    <p><b>ID</b>: 6214d5f507d1e34fa97f42cd</p>\n                                    <p><b>Número</b>: 10</p>\n                                    <p><b>Início</b>: Sat Jan 01 2022 00:00:00 GMT-0300 (Horário Padrão de Brasília)</p>\n                                    <p><b>Fim</b>: Sat Jan 01 2022 00:00:00 GMT-0300 (Horário Padrão de Brasília)</p>\n                                    <p><b>Modo</b>: TERRORISTA</p>\n                                </div><div class='item item7'>\n                                    <p><b>ID</b>: 6214d97361093d6ce35933a4</p>\n                                    <p><b>Número</b>: 10</p>\n                                    <p><b>Início</b>: Sat Jan 01 2022 00:00:00 GMT-0300 (Horário Padrão de Brasília)</p>\n                                    <p><b>Fim</b>: Sat Jan 01 2022 00:00:00 GMT-0300 (Horário Padrão de Brasília)</p>\n                                    <p><b>Modo</b>: TERRORISTA</p>\n                                </div></div><div class='item item5'>\n                            <p><b>ID</b>: 6214d63b07d1e34fa97f42f4</p>\n                            <p><b>Início</b>: Thu Jan 06 2022 00:00:00 GMT-0300 (Horário Padrão de Brasília)</p>\n                            <p><b>Fim</b>: Sun Jan 09 2022 00:00:00 GMT-0300 (Horário Padrão de Brasília)</p>\n                        </div></div></div><div class='item item2'>\n            <p><b>ID</b>: 6214d5932215cf9320896d7b</p>\n            <p><b>Complemento</b>: Apt. 500 <p><b>Número</b>: 10</p></div><div class='sub J'>\n        <div class='showJ show' onclick=\"\n            let allJ = this.parentElement\n            let seta = allJ.querySelector('.seta')\n            if(allJ.style.height !== '') {\n                allJ.style.cssText = ''\n                seta.style.cssText = ''\n            } else {\n                allJ.style.height = 'max-content'\n                seta.style.transform = 'rotate(270deg)'\n            }\n        \"><img draggable=false class=seta src='https://images.vexels.com/media/users/3/136479/isolated/preview/72ca95e059828aea4edc31c04b0556ce-proxima-seta-1.png'><p>Mostrar jogadores</p></div><div class='item item3'>\n                    <p><b>Nickname</b>: t@xm@n666</p>\n                    <p><b>Senha</b>: banana</p>\n                    <p><b>Pontos</b>: 250<p>\n                    <p><b>Data do último login</b>: Thu Dec 30 2021 21:00:00 GMT-0300 (Horário Padrão de Brasília)</p>\n                </div></div>"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 3.2070000000000003,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Listar todos os itens"
+			},
+			{
+				"startedDateTime": "2022-02-22T12:45:17.457Z",
+				"time": 3.758,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3001/partida/store",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"endereco_id\": \"6214d5932215cf9320896d79\",\n\t\"jogador_id\": \"foxylady\",\n\t\"partida\": {\n\t\t\"inicio\": \"2022-01-06 00:00:00\",\n\t\t\"fim\": \"2022-01-09 00:00:00\"\n\t}\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 404,
+					"statusText": "Not Found",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "694"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"2b6-ppGcjhPXbCjXxilF3ufdAgHpsX8\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 22 Feb 2022 12:42:00 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 694,
+						"mimeType": "text/html; charset=utf-8",
+						"text": "\n<link rel=stylesheet href=\"https://fonts.googleapis.com/css?family=Raleway\">\n<style>\n    body {\n        text-align: center;\n        font-family: Raleway;\n        background: rgb(50,50,50)\n    } p {\n        margin: 5px 0px\n    } .title {\n        color: rgb(210,210,210);\n        font-size: 40px;\n        font-weight: bold;\n        text-shadow: rgb(0,0,0,0.2) 3px 3px 0px\n    } .subtit, ul {\n        color: rgb(180,180,180);\n        font-size: 20px;\n        text-shadow: rgb(0,0,0,0.2) 2px 2px 0px\n    } ul {\n        text-align: left\n    }\n</style>\n        <p class=title>Erro 404 (Não encontrado)</p>\n        <p class=subtit>Não foi encontrado um jogador para fazer a adição da partida!</p>"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 3.758,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Adicionar PARTIDAS"
+			},
+			{
+				"startedDateTime": "2022-02-22T12:45:17.457Z",
+				"time": 10.354000000000001,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3001/partida/updateDelete",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"partida_id\": \"6214d5a02215cf9320896d7f\",\n\t\"partida\": { \"inicio\": \"2009-01-03\" }\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "710"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"2c6-uEycGBTnx4agCx+m8vpYWg/7/OM\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 22 Feb 2022 12:25:11 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 710,
+						"mimeType": "text/html; charset=utf-8",
+						"text": "\n<link rel=stylesheet href=\"https://fonts.googleapis.com/css?family=Raleway\">\n<style>\n    body {\n        text-align: center;\n        font-family: Raleway;\n        background: rgb(50,50,50)\n    } p {\n        margin: 5px 0px\n    } .title {\n        color: rgb(210,210,210);\n        font-size: 40px;\n        font-weight: bold;\n        text-shadow: rgb(0,0,0,0.2) 3px 3px 0px\n    } .subtit, ul {\n        color: rgb(180,180,180);\n        font-size: 20px;\n        text-shadow: rgb(0,0,0,0.2) 2px 2px 0px\n    } ul {\n        text-align: left\n    }\n</style>\n                            <p class=title>Partida atualizada com sucesso</p>\n                            <p class=subtit><b>Atributos atualizados</b>: inicio</p>"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 10.354000000000001,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Atualizar ou deletar PARTIDAS"
+			},
+			{
+				"startedDateTime": "2022-02-22T12:45:17.457Z",
+				"time": 3.212,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3001/round/store",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"partida_id\": \"6214d5a22215cf9320896d83\",\n\t\"round\": {\n\t\t\"numero\": 10,\n\t\t\"inicio\": \"2022-01-01 00:00:00\",\n\t\t\"fim\": \"2022-01-01 00:00:00\",\n\t\t\"modo\": \"TERRORISTA\"\n\t}\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 404,
+					"statusText": "Not Found",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "693"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"2b5-+gzy0kfh1Tf55kjrhQ0ZG0OiE84\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 22 Feb 2022 12:42:06 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 693,
+						"mimeType": "text/html; charset=utf-8",
+						"text": "\n<link rel=stylesheet href=\"https://fonts.googleapis.com/css?family=Raleway\">\n<style>\n    body {\n        text-align: center;\n        font-family: Raleway;\n        background: rgb(50,50,50)\n    } p {\n        margin: 5px 0px\n    } .title {\n        color: rgb(210,210,210);\n        font-size: 40px;\n        font-weight: bold;\n        text-shadow: rgb(0,0,0,0.2) 3px 3px 0px\n    } .subtit, ul {\n        color: rgb(180,180,180);\n        font-size: 20px;\n        text-shadow: rgb(0,0,0,0.2) 2px 2px 0px\n    } ul {\n        text-align: left\n    }\n</style>\n        <p class=title>Erro 404 (Não encontrado)</p>\n        <p class=subtit>Não foi encontrado uma partida para fazer a adição do round!</p>"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 3.212,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Adicionar ROUNDS"
+			},
+			{
+				"startedDateTime": "2022-02-22T12:45:17.457Z",
+				"time": 4.57,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3001/round/updateDelete",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"round_id\": \"6214d5ab2215cf9320896d95\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 404,
+					"statusText": "Not Found",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "706"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"2c2-YZwE5qHSrqYsCLJ1AtfSipmFbHI\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 22 Feb 2022 12:41:49 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 706,
+						"mimeType": "text/html; charset=utf-8",
+						"text": "\n<link rel=stylesheet href=\"https://fonts.googleapis.com/css?family=Raleway\">\n<style>\n    body {\n        text-align: center;\n        font-family: Raleway;\n        background: rgb(50,50,50)\n    } p {\n        margin: 5px 0px\n    } .title {\n        color: rgb(210,210,210);\n        font-size: 40px;\n        font-weight: bold;\n        text-shadow: rgb(0,0,0,0.2) 3px 3px 0px\n    } .subtit, ul {\n        color: rgb(180,180,180);\n        font-size: 20px;\n        text-shadow: rgb(0,0,0,0.2) 2px 2px 0px\n    } ul {\n        text-align: left\n    }\n</style>\n        <p class=title>Erro 404 (Não encontrado)</p>\n        <p class=subtit>Não foi encontrado um round com o ID para fazer atualização ou exclusão!</p>"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 4.57,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Atualizar ou deletar ROUNDS"
+			},
+			{
+				"startedDateTime": "2022-02-22T12:45:17.457Z",
+				"time": 18.051000000000002,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3001/addAll",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "[\n\t{\n\t\t\"numero\": 2,\n\t\t\"cep\": \"12121212\",\n\t\t\"complemento\": \"\",\n\t\t\"jogadores\": [\n\t\t\t{\n\t\t\t\t\"_id\": \"rixarlisson\",\n\t\t\t\t\"senha\": \"rick\",\n\t\t\t\t\"pontos\": 200,\n\t\t\t\t\"data_ultimo_login\": \"2022-01-01\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"_id\": \"foxylady\",\n\t\t\t\t\"senha\": \"foxy\",\n\t\t\t\t\"pontos\": 300,\n\t\t\t\t\"data_ultimo_login\": \"2022-01-01\"\n\t\t\t}\n\t\t]\n\t},\n\t{\n\t\t\"numero\": 10,\n\t\t\"cep\": \"30303030\",\n\t\t\"complemento\": \"Apt. 500\",\n\t\t\"jogadores\": [\n\t\t\t{\n\t\t\t\t\"_id\": \"t@xm@n666\",\n\t\t\t\t\"senha\": \"banana\",\n\t\t\t\t\"pontos\": 250,\n\t\t\t\t\"data_ultimo_login\": \"2021-12-31\"\n\t\t\t}\n\t\t]\n\t}\n]",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 201,
+					"statusText": "Created",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "780"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"30c-02yfegz8HpW5yErpBsKHllz/ONQ\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 22 Feb 2022 12:22:43 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 780,
+						"mimeType": "text/html; charset=utf-8",
+						"text": "\n<link rel=stylesheet href=\"https://fonts.googleapis.com/css?family=Raleway\">\n<style>\n    body {\n        text-align: center;\n        font-family: Raleway;\n        background: rgb(50,50,50)\n    } p {\n        margin: 5px 0px\n    } .title {\n        color: rgb(210,210,210);\n        font-size: 40px;\n        font-weight: bold;\n        text-shadow: rgb(0,0,0,0.2) 3px 3px 0px\n    } .subtit, ul {\n        color: rgb(180,180,180);\n        font-size: 20px;\n        text-shadow: rgb(0,0,0,0.2) 2px 2px 0px\n    } ul {\n        text-align: left\n    }\n</style><p class=title>Endereços e jogadores inseridos!</p>\n        <p class=subtit>Confira, após isso, o serviço de listagem...</p>\n        <ul><li><b>ID</b>: 6214d5932215cf9320896d79</li><li><b>ID</b>: 6214d5932215cf9320896d7b</li></ul>"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 18.051000000000002,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Adicionar endereços e jogadores"
+			},
+			{
+				"startedDateTime": "2022-02-22T12:45:17.457Z",
+				"time": 18.069000000000003,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3001/deleteAll",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "696"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"2b8-JZrYDNcCWyZM51AaSXiHTPC94eM\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 22 Feb 2022 12:22:41 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 696,
+						"mimeType": "text/html; charset=utf-8",
+						"text": "\n<link rel=stylesheet href=\"https://fonts.googleapis.com/css?family=Raleway\">\n<style>\n    body {\n        text-align: center;\n        font-family: Raleway;\n        background: rgb(50,50,50)\n    } p {\n        margin: 5px 0px\n    } .title {\n        color: rgb(210,210,210);\n        font-size: 40px;\n        font-weight: bold;\n        text-shadow: rgb(0,0,0,0.2) 3px 3px 0px\n    } .subtit, ul {\n        color: rgb(180,180,180);\n        font-size: 20px;\n        text-shadow: rgb(0,0,0,0.2) 2px 2px 0px\n    } ul {\n        text-align: left\n    }\n</style>\n        <p class=title>Exclusão efetuada com sucesso!</p>\n        <p class=subtit>O ambiente está completamente preparado para novos testes...</p>"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 18.069000000000003,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Recomeçar TUDO!!!"
+			}
+		]
+	}
+}
